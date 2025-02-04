@@ -1,5 +1,5 @@
 # PipelineIQ
-PipelineCalc is an advanced application designed to facilitate the calculation of pressures and diameters in pipes for the oil industry. Available for Android and iOS, this powerful tool leverages the latest .NET (MAUI) technologies to offer a seamless and efficient cross-platform experience.
+PipelineIQ is an advanced application designed to facilitate the calculation of pressures and diameters in pipes for the oil industry. Available for Android and iOS, this powerful tool leverages the latest .NET (MAUI) technologies to offer a seamless and efficient cross-platform experience.
 
 # Key Features:
 
@@ -13,4 +13,4 @@ PipelineCalc is an advanced application designed to facilitate the calculation o
 
 **Real-Time Updates:** Stay up-to-date with the latest data and make real-time adjustments for accurate results anytime, anywhere.
 
-Whether you're a field engineer or a professional in the oil industry, PipelineCalc is your indispensable tool for ensuring efficiency and safety in your pipeline operations.
+Whether you're a field engineer or a professional in the oil industry, PipelineIQ is your indispensable tool for ensuring efficiency and safety in your pipeline operations.
