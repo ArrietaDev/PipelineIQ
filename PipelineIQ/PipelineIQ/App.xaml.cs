@@ -1,5 +1,7 @@
 ﻿
 
+using PipelineIQ.Pages;
+
 namespace PipelineIQ
 {
     public partial class App : Application
@@ -11,7 +13,7 @@ namespace PipelineIQ
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            var window = new Window(new NavigationPage(new MainPage()));
+            var window = new Window(new NavigationPage(new OnboardingPage()));
             return window;
         }
     }

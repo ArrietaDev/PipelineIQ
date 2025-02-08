@@ -15,8 +15,9 @@ namespace PipelineIQ
                 // After initializing the .NET MAUI Community Toolkit, optionally add additional fonts
                 .ConfigureFonts(fonts =>
                 {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Ubuntu-Regular.ttf", "UbuntuRegular");
+                    fonts.AddFont("Ubuntu-Bold.ttf", "UbuntuBold");
+                    fonts.AddFont("Ubuntu-Medium.ttf", "UbuntuMedium");
                 });
 
             // Continue initializing your .NET MAUI App here

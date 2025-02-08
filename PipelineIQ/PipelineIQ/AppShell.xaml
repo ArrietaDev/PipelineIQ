@@ -3,13 +3,23 @@
     x:Class="PipelineIQ.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:PipelineIQ"
-    Shell.FlyoutBehavior="Flyout"
-    Title="PipelineIQ">
+    xmlns:pages="clr-namespace:PipelineIQ.Pages"
+    Title="PipelineIQ"
+    Shell.BackgroundColor="{StaticResource Primary}"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.ForegroundColor="White"
+    Shell.NavBarHasShadow="True"
+    Shell.TitleColor="White">
+    
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    Title="Onboarding"
+    ContentTemplate="{DataTemplate pages:OnboardingPage}"
+    Route="OnboardingPage" />
+
+    <ShellContent
+     Title="Home"
+     ContentTemplate="{DataTemplate pages:HomePage}"
+     Route="HomePage" />
 
 </Shell>
